@@ -814,8 +814,8 @@
 				<string>Size</string>
 				<key>value</key>
 				<array>
-					<real>568</real>
 					<real>960</real>
+					<real>384</real>
 					<integer>0</integer>
 					<integer>0</integer>
 				</array>
