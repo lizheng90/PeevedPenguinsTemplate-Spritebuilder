@@ -33,7 +33,7 @@
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
     // visualize physics bodies & joints
-//    _physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = TRUE;
     
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
@@ -142,7 +142,6 @@
 }
 
 - (void)sealRemoved:(CCNode *)seal {
-    [seal removeFromParent];
     
     // load particle effect
     CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"SealExplosion"];
