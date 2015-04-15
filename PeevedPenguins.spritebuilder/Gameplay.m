@@ -10,8 +10,8 @@
 
 @implementation Gameplay
 
-    CCPhysicsNode *_physicsNode;
-    CCNode *_catapultArm;
+CCPhysicsNode *_physicsNode;
+CCNode *_catapultArm;
 
 
 // is called when CCB file has completed loading
@@ -39,4 +39,6 @@
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
 }
+
+
 @end
