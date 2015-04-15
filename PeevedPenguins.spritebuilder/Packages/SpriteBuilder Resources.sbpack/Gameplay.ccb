@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>8</integer>
+	<integer>24</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -509,8 +509,6 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -817,7 +815,7 @@
 				<key>value</key>
 				<array>
 					<real>568</real>
-					<real>320</real>
+					<real>960</real>
 					<integer>0</integer>
 					<integer>0</integer>
 				</array>
@@ -847,6 +845,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
