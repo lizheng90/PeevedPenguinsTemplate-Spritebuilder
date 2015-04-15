@@ -17,6 +17,8 @@
     CCNode *_levelNode;
 
     CCNode *_contentNode;
+    
+    CCNode *_pullbackNode;
 
 }
 
@@ -31,6 +33,9 @@
     
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
+    
+    // nothing shall collide with our invisible nodes
+    _pullbackNode.physicsBody.collisionMask = @[];
 }
 
 // called on every touch in this scene
