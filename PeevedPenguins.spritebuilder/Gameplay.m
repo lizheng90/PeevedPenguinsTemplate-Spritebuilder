@@ -23,12 +23,12 @@
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
     
-    CCNode *level = [CCBReader load:@"Levels/Level1"];
+    CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
 }
 
 // called on every touch in this scene
-- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [self launchPenguin];
 }
 
